@@ -4,13 +4,16 @@ This project demonstrates the usage of SQLC with Go, focusing on different types
 
 ## Project Structure
 
+```text
 sqlc-learning/
-├── db/ # Generated Go code by SQLC
-├── queries.sql # SQL queries for SQLC
-├── schema.sql # Database schema
-├── main.go # Main application entry point
-├── go.mod # Go module file
-└── go.sum # Go module checksum file
+├── db/              # Generated Go code by SQLC
+├── queries.sql      # SQL queries for SQLC
+├── schema.sql       # Database schema
+├── main.go          # Main application entry point
+├── go.mod          # Go module file
+└── go.sum          # Go module checksum file
+```
+
 
 ## Setup
 
@@ -54,6 +57,7 @@ sqlc generate
 ```
 
 ## Dependencies
+
 Go 1.21 or later
 SQLC
 lib/pq (PostgreSQL driver)
